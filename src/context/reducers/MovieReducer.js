@@ -28,6 +28,7 @@ export function MovieReducer(state, action) {
             return {
                 ...state,
                 recommending: true,
+                recommended: [],
             }
         case types.RECOMMEND_MOVIES_FAIL:
             return {
