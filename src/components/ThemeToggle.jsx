@@ -9,8 +9,7 @@ function ThemeToggle() {
             cursor='pointer'
             onClick={toggleColorMode}
             p='10px 20px'
-            m='2rem'
-            borderRadius='full'
+            borderRadius='10px'
             position='fixed'
             right='1rem'
             zIndex={30}
